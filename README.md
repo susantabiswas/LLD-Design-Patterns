@@ -5,6 +5,8 @@ Design Patterns in C++
 
 ### 1. Factory Method
 
+[More details](Creational/Factory_Method/factory_method.md)
+
 It is a design pattern which can be used in scenarios where we are dealing with creation of an object.
 Suppose we are dealing with products of certian kind, e.g., wooden objects. Now we can have wooden chairs, tables, doors etc and each can have variety of models.
 
