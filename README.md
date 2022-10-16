@@ -5,7 +5,7 @@ Design Patterns in C++
 
 ### 1. Factory Method
 
-[More details](Creational/Factory_Method/factory_method.md)
+[Factiry Method (More details)](Creational/Factory_Method/factory_method.md)
 
 It is a design pattern which can be used in scenarios where we are dealing with creation of an object.
 Suppose we are dealing with products of certian kind, e.g., wooden objects. Now we can have wooden chairs, tables, doors etc and each can have variety of models.
@@ -16,6 +16,17 @@ When we want to control object creation, let's say we have limited resources and
 
 **Class Diagram**
 ![UML](media/Creational/factory_method.jpg)
+
+### 2. Abstract Factory
+[Abstract Factory (More details)](Creational/Abstract_factory/abstract_factory.md)
+
+Very similar to factory method in the sense that it can be used for creating class objects.
+Here a factory class is responsible for creating objects that are different but also share a common nature.
+E.g we have an app for windows, mac and linux. We have two implementations of factory classes, one that creates alpha version of app and one that creates beta version of app.
+
+
+**Class Diagram**
+![UML](media/Creational/abstract_factory.jpg)
 
 ## Structural Patterns
 
