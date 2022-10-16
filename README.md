@@ -1,5 +1,5 @@
 # LLD-Design-Patterns
-Design Patterns in C++
+**Design Patterns in C++**
 
 ## Creational Patterns
 
@@ -27,6 +27,19 @@ E.g we have an app for windows, mac and linux. We have two implementations of fa
 
 **Class Diagram**
 ![UML](media/Creational/abstract_factory.jpg)
+
+### 3. Builder
+[Builder (More details)](Creational/Builder/builder.md)
+
+Builder Pattern is useful when we want to create class objects that have lots of configurable properties. We create methods that deals with each of the configurable properties / aspect of the class.
+Then depending on the need we can only use the methods for properties that we want in the class instance.
+Often times we can also have a director that already has a specified blueprint for object creation and it takes a builder instance and using that builds a class object following the blueprint it already has.
+
+There can be classes with lots of configurable properties. Now to account for
+the possible variations, we can create subchildren that inherit from the base class and have the necessary changes to make it different from others.
+
+**Class Diagram**
+![UML](media/Creational/builder.jpg)
 
 ## Structural Patterns
 
