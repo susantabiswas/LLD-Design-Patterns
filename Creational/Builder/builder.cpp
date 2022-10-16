@@ -20,7 +20,7 @@ public:
 
 /////////////////////////////////////////////// Builder ///////////////////////////////////
 /*
-    Builder responsible for creating a computer instance.
+    Builder is responsible for creating a computer instance.
     It has methods to configure the different hardware requirements
     as per requirement.
 */
